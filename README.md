@@ -28,7 +28,7 @@ Steps:
 9. Go through com.opswat.metadefender.core.service.MetaDefenderClientService and find its methods. you may copy this and use in your project
 10. Go through MetaDefenderClientServiceTest.java to see how MetaDefenderClientService will be used
 
-* com.opswat.metadefender.core.client.MetadefenderCoreClient.java is copied from https://github.com/OPSWAT/Metadefender-Core-Client 
+> com.opswat.metadefender.core.client.MetadefenderCoreClient.java* is copied from https://github.com/OPSWAT/Metadefender-Core-Client 
   
 ## Metadefender Core Client Features
 
