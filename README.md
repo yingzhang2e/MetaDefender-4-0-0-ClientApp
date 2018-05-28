@@ -7,9 +7,9 @@ However, beginning with Metascan 3.8.1, OPSWAT move out Java sample from https:/
 OPSWAT suggests to use and Metadefender Core v4 REST API that only using the JSON-based (v2) REST API and XML-based (v1) REST API is deprecated
 
 ## Why do I add this application sample?
-* https://github.com/OPSWAT/Metadefender-Core-Client give example
-* it use Gradle and some developers are use Maven not Gradle
-* its sample use com.github.tomakehurst.wiremock.client.WireMock.* 
+* https://github.com/OPSWAT/Metadefender-Core-Client ggve good examples but
+* It use Gradle and some developers are use Maven not Gradle
+* Its samples use com.github.tomakehurst.wiremock.client.WireMock.* 
 
 
 ## This project will give instruction for developer to use metadefender-core-client easier
@@ -18,14 +18,14 @@ Steps:
 1. Go to https://www.opswat.com/ and "Start Free Trial"
 2. Sign in  your demo account (http://localhost:8008 user:admin password:admin) and active your key for test
 3. To activate key, navigate to Settings -> License then click "ACTIVATE"
-4. download metascan 4.x.x (for me its is ometascan-4.10.1-1-x64)
-5. intsall metascan by click your download
-6. import this project
+4. Download metascan 4.x.x (for me its is ometascan-4.10.1-1-x64)
+5. Intsall metascan by click your download
+6. Import this project
 7. Download metadefender-core-client-4.0.0.jar and add jar as External Libraries 
 8. Download jackson-annotations-2.7.5.jar, jackson-core-2.7.5.jar, jackson-databind-2.7.5 and add them as External Libraries 
    These 3 jars are for compiling com.opswat.metadefender.core.client.MetadefenderCoreClient.java*
 9. Go through com.opswat.metadefender.core.service.MetaDefenderClientService and find its methods. you may copy this and use in your project
-10. go through MetaDefenderClientServiceTest.java to see how MetaDefenderClientService will be used
+10. Go through MetaDefenderClientServiceTest.java to see how MetaDefenderClientService will be used
 
 * com.opswat.metadefender.core.client.MetadefenderCoreClient.java is copied from https://github.com/OPSWAT/Metadefender-Core-Client 
   
