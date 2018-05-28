@@ -2,17 +2,17 @@
 > Java library for the Metadefender Core v4 REST API.
 
 ## OPSWAT Metascan is widely used in a lot of web applications for scan viruss when files are imported. 
-However, beginning with Metascan 3.8.1, OPSWAT move out Java sample from https://portal.opswat.com/en/content/metadefender-core-sample-code and does not fully support for Java application to use “omsJInterfaceImple.dll”
+However, beginning with Metascan 3.8.1, OPSWAT move out Java sample from https://portal.opswat.com/en/content/metadefender-core-sample-code and does not fully support for a Java application to use “omsJInterfaceImple.dll”
 
 OPSWAT suggests to use and Metadefender Core v4 REST API that only using the JSON-based (v2) REST API and XML-based (v1) REST API is deprecated
 
 ## Why do I add this application sample?
-* https://github.com/OPSWAT/Metadefender-Core-Client ggve good examples but
-* It use Gradle and some developers are use Maven not Gradle
-* Its samples use com.github.tomakehurst.wiremock.client.WireMock.* 
+* https://github.com/OPSWAT/Metadefender-Core-Client gave good examples but
+* It used Gradle and some developers are use Maven not Gradle
+* Its samples used com.github.tomakehurst.wiremock.client.WireMock.* 
 
 
-## This project will give instruction for developer to use metadefender-core-client easier
+## This project will give instruction for a Java developer to use metadefender-core-client easier
 
 Steps:
 1. Go to https://www.opswat.com/ and "Start Free Trial"
