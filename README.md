@@ -12,7 +12,8 @@ However, beginning with Metascan 3.8.1, OPSWAT move out Java sample from https:/
 * It used Gradle and some developers are use Maven not Gradle
 * Its samples used com.github.tomakehurst.wiremock.client.WireMock.*
 
-## This project will give instruction for a Java developer to use metadefender-core-client easier
+## How to use Metadefender Core v4 REST API?
+>This project will give instruction for a Java developer to use metadefender-core-client easier
 
 Steps:
 1. Go to https://www.opswat.com/ and "Start Free Trial"
