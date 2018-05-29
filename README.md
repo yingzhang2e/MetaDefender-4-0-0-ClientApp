@@ -1,5 +1,14 @@
-# This is based on Metadefender Core Client https://github.com/OPSWAT/Metadefender-Core-Client
-> Java library for the Metadefender Core v4 REST API.
+# Use Metadefender Core v4 REST API in your applications
+## MetaDefenderClientService.java
+
+>It provides methods for to scan file and get Metascan information. 
+
+* public static boolean isFileAllowed(String apiUrl, String file);
+* public static String scanFile(String apiUrl, String file);
+* public static String showApiInfo(String apiUrl, String apiUser, String apiUserPass)
+
+>It call methods in MetadefenderCoreClient.java (Metadefender Core Client https://github.com/OPSWAT/Metadefender-Core-Client
+ Java library for the Metadefender Core v4 REST API.)
 
 ## OPSWAT Metascan 3.x.x and Metadefender Core v4 REST API
 * Metascan 3.x.x is widely used in a lot of web applications for scan viruss when files are imported. 
